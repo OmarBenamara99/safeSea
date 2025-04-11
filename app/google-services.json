@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "549817923535",
+    "project_id": "sea-safe",
+    "storage_bucket": "sea-safe.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:549817923535:android:a36e44492d1c141c63c4ba",
+        "android_client_info": {
+          "package_name": "com.example.safesea"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "549817923535-s4nki0rggmcgon9k5s13hchr65m9cu00.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA7j5NLkcwZ_1ll95MYY3t5ni8ESwIaAQw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "549817923535-s4nki0rggmcgon9k5s13hchr65m9cu00.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:549817923535:android:d6c27ee69fbb9ca463c4ba",
+        "android_client_info": {
+          "package_name": "com.example.seasafe"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "549817923535-s4nki0rggmcgon9k5s13hchr65m9cu00.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA7j5NLkcwZ_1ll95MYY3t5ni8ESwIaAQw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "549817923535-s4nki0rggmcgon9k5s13hchr65m9cu00.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

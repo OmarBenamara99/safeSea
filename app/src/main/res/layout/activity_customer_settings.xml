@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".CustomerSettingsActivity">
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="130dp"
+        android:layout_height="130dp"
+        android:layout_marginTop="80dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/x"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="16dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/y"
+        android:translationX="-10dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imgView_cloudRight"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="120dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/y"
+        android:translationX="5dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/linlay_inputs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginRight="30dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imgView_cloudRight">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pour plus de sécurité, vous devez remplir ces champs"
+            android:fontFamily="sans-serif-medium"
+            android:textColor="@color/textHeadline"
+            android:gravity="center"
+            android:textSize="20sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif"
+            android:text="Nombre de personnes"
+            android:textColor="@color/textDescription"
+            android:gravity="start"
+            android:layout_marginTop="25dp"
+            android:textSize="14sp"
+            android:id="@+id/one"/>
+
+        <EditText
+
+            android:background="@drawable/edittext_bg"
+            android:id="@+id/Nombre_de_personnes"
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:padding="16dp"
+            android:hint="1 , 2 , 15 , 20 ..."
+            android:textSize="14sp"
+            android:inputType="number"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif"
+            android:text="Type de problème"
+            android:textColor="@color/textDescription"
+            android:gravity="start"
+            android:textSize="14sp"
+            android:layout_marginTop="15dp"
+            android:id="@+id/two"/>
+        <EditText
+
+            android:background="@drawable/edittext_bg"
+            android:id="@+id/Type_de_problème"
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:padding="16dp"
+            android:hint="Cas d'incendie , Perdu dans la mer , Orage ..."
+            android:textSize="14sp"
+            android:inputType="text"
+            android:layout_height="wrap_content"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif"
+            android:text="Durée d'endurance (En minutes)"
+            android:textColor="@color/textDescription"
+            android:gravity="start"
+            android:textSize="14sp"
+            android:layout_marginTop="15dp"
+            android:id="@+id/three"/>
+
+        <EditText
+
+            android:background="@drawable/edittext_bg"
+            android:id="@+id/Durée"
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:padding="16dp"
+            android:hint="Par exemple 1,2,10,20 ..."
+            android:textSize="14sp"
+            android:inputType="time"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:id="@+id/confirm"
+            android:layout_marginTop="25dp"
+            android:textColor="@color/white"
+            android:text="Confirmer"
+            android:layout_width="match_parent"
+            android:background="@drawable/button_bg"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/back"
+            android:layout_marginTop="5dp"
+            android:textColor="@color/white"
+            android:text="Annuler"
+            android:layout_width="match_parent"
+            android:background="@drawable/button_bg"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

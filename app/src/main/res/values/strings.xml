@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">SafeSea</string>
+    <string name="title_activity_map">Map</string>
+    <string name="register_button">Vous n\'avez pas de compte ?<b> Inscrivez-vous ici</b></string>
+    <string name="already">Déja inscrit ?<b> Connectez-vous ici</b></string>
+
+    <string-array name="country_array">
+        <item>first</item>
+        <item>second</item>
+        <item>third</item>
+
+    </string-array>
+</resources>
